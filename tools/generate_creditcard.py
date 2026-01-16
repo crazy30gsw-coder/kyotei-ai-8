@@ -174,11 +174,10 @@ class HTMLGenerator:
         ])
 
         brands = " / ".join(card.get("brand", []))
+        card_id = card.get("id", "")
 
         return f'''                <div class="card-item">
-                    <div style="width: 100%; height: 150px; background: linear-gradient({card.get("gradient", "135deg, #667eea 0%, #764ba2 100%")}); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; font-weight: bold; margin-bottom: 15px;">
-                        {card["name"]}
-                    </div>
+                    <img src="images/{card_id}.png" alt="{card["name"]}" style="width: 100%; height: auto; border-radius: 10px; margin-bottom: 15px;">
                     <h3 class="card-item-title">{card["name"]}</h3>
                     <ul class="card-features">
                         <li>
@@ -202,13 +201,14 @@ class HTMLGenerator:
         """比較表の行を生成"""
         brands = "<br>".join(card.get("brand", []))
         emoney = "<br>".join(card.get("emoney", []))
+        card_id = card.get("id", "")
 
         return f'''                        <tr>
                             <td><strong style="font-size: 18px; color: #e91e63;">{card["return_rate"]}</strong></td>
                             <td><strong style="color: {"#4caf50" if "無料" in card["annual_fee"] else "#333"};">{card["annual_fee"]}</strong></td>
                             <td>{brands}</td>
                             <td>{emoney}</td>
-                            <td><div style="width: 100px; height: 63px; background: linear-gradient({card.get("gradient", "135deg, #1a5f7a 0%, #57c5b6 100%")}); border-radius: 5px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 12px;">{card["name"][:8]}</div></td>
+                            <td><img src="images/{card_id}.png" alt="{card["name"]}" class="card-image"></td>
                             <td><a href="{card.get("affiliate_url", "#")}" class="apply-btn" target="_blank" rel="noopener">詳細・申込</a></td>
                         </tr>'''
 
