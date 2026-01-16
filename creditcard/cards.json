@@ -1,0 +1,164 @@
+[
+  {
+    "id": "premium-001",
+    "name": "高還元率プレミアムカード",
+    "return_rate": "1.0〜5.0%",
+    "annual_fee": "永年無料",
+    "brand": [
+      "VISA",
+      "Mastercard"
+    ],
+    "emoney": [
+      "iD",
+      "Apple Pay"
+    ],
+    "features": [
+      "年会費永年無料",
+      "ポイント還元率最大5.0%",
+      "新規入会で最大5,000ポイント",
+      "家族カード無料"
+    ],
+    "category": [
+      "popular",
+      "no-fee",
+      "return-rate"
+    ],
+    "gradient": "135deg, #667eea 0%, #764ba2 100%",
+    "affiliate_url": "#"
+  },
+  {
+    "id": "rakuten-001",
+    "name": "楽天スタイルカード",
+    "return_rate": "1.0〜3.0%",
+    "annual_fee": "永年無料",
+    "brand": [
+      "VISA",
+      "JCB"
+    ],
+    "emoney": [
+      "楽天Edy",
+      "Apple Pay"
+    ],
+    "features": [
+      "楽天市場でポイント3倍",
+      "楽天ポイントがザクザク貯まる",
+      "年会費永年無料",
+      "楽天サービスでお得"
+    ],
+    "category": [
+      "popular",
+      "no-fee",
+      "mile"
+    ],
+    "gradient": "135deg, #f093fb 0%, #f5576c 100%",
+    "affiliate_url": "#"
+  },
+  {
+    "id": "gold-001",
+    "name": "ゴールドカードプレミアム",
+    "return_rate": "0.5〜10.0%",
+    "annual_fee": "1,375円",
+    "brand": [
+      "VISA",
+      "Mastercard",
+      "JCB"
+    ],
+    "emoney": [
+      "iD",
+      "QUICPay",
+      "Apple Pay"
+    ],
+    "features": [
+      "空港ラウンジ無料",
+      "最大1億円の海外旅行保険",
+      "ポイント還元率最大10.0%",
+      "ゴールド限定特典"
+    ],
+    "category": [
+      "popular",
+      "gold",
+      "insurance"
+    ],
+    "gradient": "135deg, #ffd89b 0%, #19547b 100%",
+    "affiliate_url": "#"
+  },
+  {
+    "id": "platinum-001",
+    "name": "プラチナカードエクセレント",
+    "return_rate": "1.0〜5.0%",
+    "annual_fee": "22,000円",
+    "brand": [
+      "VISA",
+      "Mastercard"
+    ],
+    "emoney": [
+      "iD",
+      "Apple Pay",
+      "QUICPay"
+    ],
+    "features": [
+      "24時間コンシェルジュサービス",
+      "プライオリティ・パス無料",
+      "最高1億円の旅行保険",
+      "レストラン優待"
+    ],
+    "category": [
+      "platinum",
+      "insurance"
+    ],
+    "gradient": "135deg, #434343 0%, #000000 100%",
+    "affiliate_url": "#"
+  },
+  {
+    "id": "student-001",
+    "name": "学生専用カード",
+    "return_rate": "0.5〜2.0%",
+    "annual_fee": "在学中無料",
+    "brand": [
+      "VISA"
+    ],
+    "emoney": [
+      "iD",
+      "Apple Pay"
+    ],
+    "features": [
+      "学生限定の特典",
+      "卒業後も年会費優遇",
+      "海外旅行保険付帯",
+      "ポイント交換先豊富"
+    ],
+    "category": [
+      "no-fee",
+      "instant"
+    ],
+    "gradient": "135deg, #4facfe 0%, #00f2fe 100%",
+    "affiliate_url": "#"
+  },
+  {
+    "id": "business-001",
+    "name": "ビジネスカードプロ",
+    "return_rate": "0.5〜1.5%",
+    "annual_fee": "初年度無料（2年目以降1,375円）",
+    "brand": [
+      "VISA",
+      "Mastercard",
+      "JCB"
+    ],
+    "emoney": [
+      "iD",
+      "QUICPay"
+    ],
+    "features": [
+      "経費管理が簡単",
+      "ビジネス特典充実",
+      "ETCカード複数枚発行可能",
+      "会計ソフト連携"
+    ],
+    "category": [
+      "business",
+      "etc"
+    ],
+    "gradient": "135deg, #89f7fe 0%, #66a6ff 100%",
+    "affiliate_url": "#"
+  }
+]
