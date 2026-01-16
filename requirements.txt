@@ -1,0 +1,19 @@
+# YouTube動画自動生成の依存ライブラリ
+
+# 音声生成（Google Text-to-Speech）
+gtts>=2.5.0
+
+# 画像処理
+Pillow>=10.0.0
+
+# YouTube API
+google-auth-oauthlib>=1.0.0
+google-api-python-client>=2.100.0
+
+# 依存関係
+cffi>=1.15.0
+cryptography>=41.0.0
+
+# 注意: 動画生成にはffmpegがシステムにインストールされている必要があります
+# Debian/Ubuntu: sudo apt-get install ffmpeg
+# macOS: brew install ffmpeg
