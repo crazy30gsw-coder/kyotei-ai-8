@@ -1,7 +1,7 @@
 # YouTube動画自動生成関連のファイル
 videos/
 audio/
-images/
+images/test.png
 
 # 環境変数ファイル（APIキーなどの機密情報）
 .env
