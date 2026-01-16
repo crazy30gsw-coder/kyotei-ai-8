@@ -14,15 +14,40 @@
 
 ## セットアップ
 
-### 1. 依存ライブラリのインストール
+### 1. 環境変数の設定
+
+`.env.example` をコピーして `.env` ファイルを作成し、APIキーを設定します。
+
+```bash
+cp .env.example .env
+```
+
+`.env` ファイルを編集して、OpenAI APIキーを設定してください：
+
+```bash
+# OpenAI APIキー（必要な場合）
+OPENAI_API_KEY=sk-...your_actual_api_key_here...
+# または
+KKK=sk-...your_actual_api_key_here...
+```
+
+**OpenAI APIキーの取得方法：**
+1. [OpenAI Platform](https://platform.openai.com/api-keys) にアクセス
+2. サインイン/サインアップ
+3. 「Create new secret key」をクリック
+4. 生成されたキーをコピーして `.env` ファイルに貼り付け
+
+**注意**: `.env` ファイルは `.gitignore` で除外されているため、Gitリポジトリにはコミットされません。
+
+### 2. 依存ライブラリのインストール
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. YouTube API の設定
+### 3. YouTube API の設定
 
-#### 2.1 Google Cloud Console で設定
+#### 3.1 Google Cloud Console で設定
 
 1. [Google Cloud Console](https://console.cloud.google.com/) にアクセス
 2. 新しいプロジェクトを作成（または既存のプロジェクトを選択）
@@ -38,7 +63,7 @@ pip install -r requirements.txt
    - 作成したクライアント IDの右側の「↓」アイコンをクリック
    - JSONファイルをダウンロード
 
-#### 2.2 クライアントシークレットの配置
+#### 3.2 クライアントシークレットの配置
 
 ダウンロードしたJSONファイルを `client_secrets.json` という名前でプロジェクトルートに配置します。
 
@@ -46,7 +71,7 @@ pip install -r requirements.txt
 mv ~/Downloads/client_secret_XXXXX.json /home/user/kyotei-ai-8/client_secrets.json
 ```
 
-### 3. システムフォントのインストール（オプション）
+### 4. システムフォントのインストール（オプション）
 
 サムネイル画像の日本語表示のために、日本語フォントをインストールすることをおすすめします。
 

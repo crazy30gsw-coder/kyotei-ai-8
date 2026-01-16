@@ -3,6 +3,9 @@ videos/
 audio/
 images/
 
+# 環境変数ファイル（APIキーなどの機密情報）
+.env
+
 # YouTube API認証情報
 client_secrets.json
 token.json
